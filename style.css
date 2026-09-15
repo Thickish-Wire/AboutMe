@@ -78,3 +78,51 @@ body{
     height: 4px;
 }
 
+/* Table Section */
+
+.info{
+    background-color: bisque;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 5px solid white;
+    margin-top: 1.2rem;
+}
+
+.info hr{
+    background-color: #ffff;
+    border: none;
+    max-width: 75%;
+    border-radius: 4px;
+    height: 4px;
+}
+
+
+.info h2{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 24px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 1.2em;
+}
+
+th, td {
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: bisque;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5dc;
+}
